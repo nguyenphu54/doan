@@ -1,0 +1,44 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+Lib/
+Scripts/
+Include/
+share/
+pyvenv.cfg
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local secrets/config
+.env
+
+# Generated runtime data
+data/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+*.xlsx
+app/data/*.db
+app/data/*.pkl
+app/data/session.json
+app/data/settings.json
+app/data/backups/
+app/data/exports/
+app/data/imports/
+app/data/fine_tuned_model/
+
+# IDE/local OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
